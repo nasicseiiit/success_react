@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  color: #61DAFB;
+  background: #2D2D2D;
+}
+
+h1 {
+  margin: 25px 15px 0 0 ;
+  text-align: center;
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.complete{
+  background-color: chartreuse;
+  
+}
+
+.close{
+  background-color: red;
+  
+}
+
+li {
+  padding: 10px;
+  list-style: decimal;  
+  list-style-position: inside;
+  color: rgb(15, 15, 1);
+  background-color: rgba(255,255,255,.5);
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+li:hover {
+  background-color:pink;
+  cursor: pointer;
+}
